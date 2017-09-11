@@ -10,6 +10,9 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Vidly.Models;
 
+
+// some comment here
+
 namespace Vidly.Controllers
 {
     [Authorize]
