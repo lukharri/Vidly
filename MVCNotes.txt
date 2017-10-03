@@ -1,0 +1,24 @@
+
+/*****************************************   MVC ARCHITECTURE   ***************************************/
+/******************************************************************************************************/
+
+MODELS
+Classes the represent app data and its behavior in terms of its problem domain and independent of the UI.
+For ex, in video rental app the domain model consists of classes like Movie, Customer, Rental, and
+Transaction, etc...each with properties and methods that purely represent application state and rules.
+They are not tied to the UI. 
+
+
+VIEW
+The HTML markup displayed to the user.
+
+
+CONTROLLER
+Classes responsible for handling an HTTP request
+
+ROUTER
+Selects the correct controller for a request based on the URL. For ex, a request to vidly.com/movies is 
+handled by an action (i.e. method) in the MoviesController class.  
+
+VIEW MODELS
+A model specifically built for a view including any data and rules 
